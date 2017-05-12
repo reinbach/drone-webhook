@@ -1,10 +1,14 @@
-# Drone Webhook Plugin
+Drone Webhook Plugin
+====================
 
 Basic webhook plugin docker container that works with [Drone](https://github.com/drone/drone)
 A copy from [custom go plugin example](http://docs.drone.io/creating-custom-plugins-golang/) with minor tweaks.
 
 
-## Usage
+Usage
+-----
+
+.. code-block:: yaml
 
     pipeline:
       webhook:
